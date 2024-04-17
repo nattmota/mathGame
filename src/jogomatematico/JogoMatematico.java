@@ -8,9 +8,7 @@ public class JogoMatematico {
     
     
     public static void main(String[] args) {
-        Caixa caixa = new Caixa(10, 10);
-        Game game = new Game();
-        caixa.desenhar();
+        Game game = new Game();       
         game.NewClass();
         
     }
